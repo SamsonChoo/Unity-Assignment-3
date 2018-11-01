@@ -20,7 +20,7 @@ public class ControllerBehaviour : MonoBehaviour {
 	void Update () {
 
 		// check user input
-        if(controller.triggerPressed)
+        /*if(controller.triggerPressed)
         {   
 			//Here, we use controller to "raycast" the target
 			//if the raycast hit any thing, we check whether it is the target or not (by tag)
@@ -47,7 +47,7 @@ public class ControllerBehaviour : MonoBehaviour {
         }
 		else{
 			this.GetComponent<LineRenderer>().enabled = false;
-		}
+		}*/
     }
 
     void OnTriggerEnter(Collider other)

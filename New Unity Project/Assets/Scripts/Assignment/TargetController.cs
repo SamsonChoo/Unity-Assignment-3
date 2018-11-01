@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //In this script
-//We 
+//We handle the targets' position, their rotation, their properties, and activate or deactivate them.
 
 public class TargetController : MonoBehaviour {
 
